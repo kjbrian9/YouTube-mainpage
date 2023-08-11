@@ -1,0 +1,64 @@
+.videoLength{
+    position: absolute;
+    right:-70px;
+    bottom: -3px;
+    font-size: 13px;
+}
+
+.videoTitle{
+    margin-top: 5px;
+    color: white;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+
+.viewCount,.channelName {
+    color:rgb(170, 170, 170);
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+.channelPic{
+    border-radius: 60px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+
+
+.videoText{
+    display: grid;
+    grid-template-columns: 50px 300px;
+}
+
+.videoLength{
+    color: white;
+    background-color: black;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 126px;
+    margin-left: -25px;
+    column-gap: 28px;
+}
+
+.video{
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.thumbnailImage{
+    width: 375px;
+    height: 215px;
+    border-radius: 10px;
+    transition: border-radius 150ms ease-out;
+     
+}
+
+.thumbnailImage:hover{
+    border-radius: 0px;
+}
+

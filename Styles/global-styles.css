@@ -1,0 +1,31 @@
+body{
+background-color: rgb(15, 15, 15);
+font-family: Roboto,  Arial;
+padding-left: 100px;
+}
+
+.leftPanelVideos{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.headerFixedDiv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    height: 70px;
+    z-index: 100;
+    background-color: rgb(15, 15, 15)
+   
+    
+}
+
+.footerDiv{
+    border-bottom: solid;
+    border-bottom-color: rgb(73, 73, 73);
+    margin-right: 70px;
+    margin-left:-90px;
+    border-width: 4px;
+}
+
